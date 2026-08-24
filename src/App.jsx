@@ -12,7 +12,7 @@ function App() {
   const [sideBar, setSideBar] = useState(false);
 
   return (
-    <div className={theme === "dark" ? "dark" : ""}>
+    <div className={`${theme === "dark" ? "dark" : ""} bg-white dark:bg-black min-h-screen`}>
       
       <NavBar
         theme={theme}
