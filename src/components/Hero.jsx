@@ -1,7 +1,7 @@
 import assets from "../assets/assets";
 function Hero() {
   return (
-    <div className="overflow-hidden flex flex-col items-center gap-6  sm:px-12 lg:px-24 xl:px-40">
+    <div id="home" className="overflow-hidden flex flex-col items-center gap-6  sm:px-12 lg:px-24 xl:px-40">
       <div
         className=" flex items-center justify-center gap-x-2
         w-60 overflow-hidden max-sm:w-full border border-gray-300

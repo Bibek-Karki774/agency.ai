@@ -1,12 +1,12 @@
 function ServiceCard({ service }) {
   return (
-    <div className="flex gap-x-8 justify-center items-center 
+    <div className="flex gap-x-5 sm:gap-x-8 items-start
   hover:scale-105 transition-all duration-300 cursor-pointer">
-      <div>
+      <div className="shrink-0">
         <img
           src={service.icon}
           alt={service.title}
-          className="w-16 h-16 object-contain"
+          className="w-12 h-12 sm:w-16 sm:h-16 object-contain"
         />
       </div>
       <div>

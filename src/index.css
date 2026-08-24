@@ -8,6 +8,11 @@
       font-weight: 500;
         
 }
+
+#home, #services, #work, #contact{
+    scroll-margin-top: 90px;
+}
+
 body{
     margin: 0;
     padding: 0;

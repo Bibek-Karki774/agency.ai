@@ -30,7 +30,7 @@ function NavBar({ theme, sideBar, setTheme, setSideBar }) {
         className={`flex gap-x-3 sm:text-sm
         *:hover:underline *:hover:underline-offset-5
         *:cursor-pointer *:max-sm:cursor-pointer
-        max-sm:flex-col max-sm:h-screen max-sm:w-[35vw]
+        max-sm:flex-col max-sm:h-screen max-sm:w-[60vw]
         max-sm:m-0 max-sm:justify-start max-sm:gap-y-4 max-sm:pt-15 max-sm:pl-10
         max-sm:text-white dark:max-sm:text-gray-200
         max-sm:bg-primary dark:max-sm:bg-[rgb(12,17,28)]
