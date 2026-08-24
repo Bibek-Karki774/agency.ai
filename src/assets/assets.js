@@ -65,7 +65,12 @@ const assets = {
   logo_dark,
   menu_icon_dark,
   sun_icon,
-  moon_icon
+  moon_icon,
+  microsoft_logo,
+  rakuten_logo,
+  coinbase_logo,
+  airbnb_logo,
+  google_logo
 }
 
 export default assets

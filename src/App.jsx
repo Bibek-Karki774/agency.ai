@@ -1,15 +1,31 @@
-import { useState } from "react"
-import NavBar from "./components/NavBar"
-
+import { useState } from "react";
+import { Outlet } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const [theme, setTheme]= useState("light")
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") || "light"
+  );
+
+  const [sideBar, setSideBar] = useState(false);
 
   return (
-    <>
-   <NavBar theme={theme} setTheme={setTheme} />
-    </>
-  )
+    <div className={theme === "dark" ? "dark" : ""}>
+      
+      <NavBar
+        theme={theme}
+        setTheme={setTheme}
+        sideBar={sideBar}
+        setSideBar={setSideBar}
+      />
+
+      <Outlet />
+
+      <ToastContainer />
+    </div>
+  );
 }
 
-export default App
+export default App;
