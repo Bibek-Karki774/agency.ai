@@ -1,4 +1,4 @@
-import assets from "/src/assets/assets";
+import assets from "../assets/assets";
 function Hero() {
   return (
     <div className="overflow-hidden flex flex-col items-center gap-6  sm:px-12 lg:px-24 xl:px-40">

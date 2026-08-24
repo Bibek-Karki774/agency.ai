@@ -1,5 +1,5 @@
 import assets from "/src/assets/assets";
-import Theme from "./theme";
+import Theme from "./Theme";
 function NavBar({ theme, sideBar, setTheme, setSideBar }) {
   const handleTheme = () => {
     if (theme === "light") {
